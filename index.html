@@ -413,18 +413,45 @@
                         x
                     </div>
                 </button>
-                <form class="form">
-                    <label class="">
-                        Email
-                        <input type="email" name="email" required />
-                    </label>
-                    <label>
-                        Password
-                        <input type="password" name="password" required />
-                    </label>
-                
-                    <button type="submit">Submit</button>
-                </form>
+                <div class="wrapper">
+                    <form class="form">
+                        <div class="form_txt">
+                            <p>
+                                Оставьте свои данные, мы вам перезвоним
+                            </p>
+                        </div>
+                        <div class="label-wrapper">
+                            <label class="name-label">
+                                Имя
+                                <input type="name" name="name" required />
+                            </label>
+                            <label class="name-label">
+                                Телефон
+                                <input type="tel" name="tel" required />
+                            </label>
+                            <label class="name-label">
+                                Почта
+                                <input type="email" name="email" required />
+                            </label>
+                            <label class="name-label">
+                                Комментарий
+                                <textarea
+                                name="feadback"
+                                rows="5"
+                                placeholder="Введите текст">
+                                </textarea>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="checkbox" value="checkbox">
+                                <span>
+                                    Соглашаюсь с рассылкой и принимаю 
+                                    <a href="https://mozilla.org">Условия договора</a>
+                                </span>
+                            </label>
+                        </div>
+                        <button class="submit" type="submit">Отправить</button>
+                    </form>
+                </div>
             </div>
         </div>
         <script src="js/modal.js">
