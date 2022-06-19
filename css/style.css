@@ -883,16 +883,57 @@ label {
     width: 448px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+    padding-left: 42px;
 }
 
-.input-icons {
+.input-icon1 {
     position: absolute;
-    top: 14px;
-    left: 15px;
-    bottom: 14px;
-    fill: var(--bg-color);
-
+    top: 107px;
+    left: 56px;
+   
+    fill: var(--main-text-color);
 }
+
+.input-icon1:hover,
+.input-icon1:focus {
+    fill: var(--second-text-color);
+    cursor: pointer;
+}
+
+.input-icon2 {
+    position: absolute;
+    top: 174.26px;
+    left: 55.27px;
+
+    fill: var(--main-text-color);
+}
+
+.input-icon2:hover,
+.input-icon2:focus {
+    fill: var(--second-text-color);
+    cursor: pointer;
+}
+
+.input-icon3 {
+    position: absolute;
+    top: 243px;
+    left: 54.5px;
+
+    fill: var(--main-text-color);
+}
+
+.input-icon3:hover,
+.input-icon3:focus {
+    fill: var(--second-text-color);
+    cursor: pointer;
+}
+
+.name-label-input:hover,
+.name-label-input:focus {
+    border-color: var(--second-text-color);
+    cursor: pointer;
+}
+
 
 .text-field {
     width: 448px;
