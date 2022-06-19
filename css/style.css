@@ -884,6 +884,16 @@ label {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
+
+.input-icons {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    bottom: 14px;
+    fill: var(--bg-color);
+
+}
+
 .text-field {
     width: 448px;
     height: 120px;
