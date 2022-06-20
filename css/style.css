@@ -871,6 +871,16 @@ label {
     
 }
 
+.name-label:hover > input {
+    border-color: var(--second-text-color);
+    cursor: pointer;
+}
+
+.name-label:hover > .input-icon {
+    fill: var(--second-text-color);
+    cursor: pointer;
+}
+
 .name-label-span {
     margin-bottom: 4px;
     font-weight: 400;
@@ -886,18 +896,18 @@ label {
     padding-left: 42px;
 }
 
+.div-icon {
+    display: flex;
+    width: 42px;
+    height: 40px;
+}
+
 .input-icon1 {
     position: absolute;
     top: 107px;
     left: 56px;
    
     fill: var(--main-text-color);
-}
-
-.input-icon1:hover,
-.input-icon1:focus {
-    fill: var(--second-text-color);
-    cursor: pointer;
 }
 
 .input-icon2 {
@@ -916,7 +926,7 @@ label {
 
 .input-icon3 {
     position: absolute;
-    top: 243px;
+    top: 243px; 
     left: 54.5px;
 
     fill: var(--main-text-color);
