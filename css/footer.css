@@ -133,3 +133,88 @@ a.bott-logo>span {
 .bott-adr-item:nth-last-child(n+2) {
     padding-bottom: 9px;
 }
+
+.name-lable-bott {
+    position: relative;
+}
+
+.name-label-input-bott {
+    
+    border-radius: 4px;
+    background-color: var(--bg-color);
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 79px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.div-icon-bott {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    width: 79px;
+    height: 50px;
+    color: red;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-icon-bott {
+    
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+.bott-butt {
+    position: relative;
+}
+
+.hero-but-butt {
+
+    position: absolute;
+    top: 55px;
+
+    width: 200px;
+    height: 50px;
+    display: block;
+    color: var(--third-text-color);
+    background-color: var(--second-text-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 2px;
+
+    padding: 10px 62px 10px 29px;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.h-butt {
+    display: flex;
+    width: 143px;
+
+}
+
+.butt-sing {
+    width: 109px;
+    height: 30px;
+}
+
+.butt-svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
