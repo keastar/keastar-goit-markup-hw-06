@@ -1,0 +1,135 @@
+.bott {
+    width: inherit;
+    color: var(--third-text-color);
+    background-color: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.fotter-container {
+    display: flex;
+    padding-left: 15px;
+}
+
+.bott-container {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    padding-right: 0px;
+}
+
+.bott-container2 {
+    padding-left: 70px;
+    padding-right: 0px;
+}
+
+.bott-container3 {
+    padding-left: 71px;
+    padding-right: 0px;
+}
+
+.bott-attach {
+    font-family: var(--main-font);
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+
+.bott-social-list {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+
+.bott-social-item {
+    padding-right: 10px;
+}
+
+.bott-social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bott-social-link:hover {
+    background-color: var(--second-text-color)
+}
+
+.bott-social-link:focus {
+    background-color: var(--second-text-color)
+}
+
+.bott-social-icon {
+    fill: var(--third-text-color);
+}
+
+.bott-logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--second-text-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    padding-bottom: 20px;
+}
+
+a.bott-logo>span {
+    color: var(--third-text-color);
+}
+
+.bott-adr-info {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--third-text-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bott-adr-info:hover {
+    color: var(--second-text-color);
+}
+
+.bott-adr-info:focus {
+    color: var(--second-text-color);
+}
+
+.bott-adr-c {
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bott-adr-c:hover {
+    color: var(--second-text-color);
+}
+
+.bott-adr-c:focus {
+    color: var(--second-text-color);
+}
+
+.bott-adr-list {
+    padding-left: 0;
+}
+
+.bott-adr-item:nth-last-child(n+2) {
+    padding-bottom: 9px;
+}

@@ -1,3 +1,9 @@
+ @import "./modal.css";
+ @import "./header.css";
+ @import "./index.css";
+ @import "./portfolio.css";
+ @import "./footer.css";
+ 
  * {
      list-style: none;
  }
@@ -16,4 +22,14 @@
      font-size: 14px;
      line-height: 1.71;
      color: var(--main-text-color);
+ }
+
+ h1, h2, h3, h4, h5, h6, p, ul {
+     margin: 0;
+ }
+
+ .container {
+     width: 1200px;
+     margin: 0 auto;
+     padding: 0 15px;
  }
