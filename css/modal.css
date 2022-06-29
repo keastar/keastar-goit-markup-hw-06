@@ -67,7 +67,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover > .icon-close {
+.modal-btn:hover > .icon-close,
+.modal-btn:focus > .icon-close {
     fill: var(--second-text-color);
 }
 
@@ -97,19 +98,22 @@ label {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
-.name-label:hover > .text-field {
+.name-label:hover > .text-field, 
+.name-label:focus > .text-field {
     border-color: var(--second-text-color);
     cursor: pointer;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.name-label:hover > .name-label-input {
+.name-label:hover > .name-label-input,
+.name-label:focus > .name-label-input {
     border-color: var(--second-text-color);
     cursor: pointer; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.name-label:hover > .div-icon > .input-icon {
+.name-label:hover > .div-icon > .input-icon,
+.name-label:focus > .div-icon > .input-icon {
     fill: var(--second-text-color);
     cursor: pointer;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -128,6 +132,10 @@ label {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     padding-left: 42px;
+}
+
+.name-label-input:focus + .div-icon > .input-icon {
+    fill: var(--second-text-color);
 }
 
 
@@ -151,6 +159,7 @@ label {
 .text-field {
     width: 448px;
     height: 120px;
+    resize: none;
     padding: 12px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -201,17 +210,37 @@ label {
     letter-spacing: 3%; 
 
     padding-bottom: 12px;
+    text-align: center;
 }
 
-.checkbox-label {
+.checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    position: absolute;
+}
+
+.checkbox-label::after {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    content: '';
+    width: 16px;
+    height: 15px;
+    background-color: #1976d2;
+
     padding-left: 12px;
+
+}
+
+.checkbox:checked + .checkbox-label::after {
+
 }
 
 .checkbox-label span {
-    padding-left: 8.38px;
+    padding-left: 24.38px;
     color: var(--main-text-colorlight);
     font-weight: 400;
     font-size: 14px;
@@ -222,3 +251,4 @@ label {
 .checkbox-label a {
     color: var(--second-text-color);
 }
+
