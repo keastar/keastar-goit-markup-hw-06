@@ -7,7 +7,8 @@
     padding-top: 200px;
     padding-bottom: 200px;
 
-    background-image: url(../images/img_HEROpro.jpg), linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img_HEROpro.jpg);
+    }
 }
 
 .hero-container {
@@ -28,6 +29,7 @@
 
 .hero-but {
     display: block;
+    margin:  0 auto;
     color: var(--third-text-color);
     background-color: var(--second-text-color);
     font-family: var(--main-font);
